@@ -1,0 +1,29 @@
+@debug -----------Equality------------;
+@debug 1px == 1;
+@debug 1px == 1px;
+@debug true == true;
+@debug true != false;
+
+@debug -----------Relations------------;
+@debug 100 > 50;
+@debug 10px  > 17px;
+
+@debug -----------Math------------;
+// @use "sass:list";
+@debug 10s + 5s;
+@debug 10s - 50ms;
+@debug 10px * 2;
+@debug 10px * 2px;
+// @debug 10px/2px;
+// @debug (10px/2);
+// @debug list.slash(10px/2px);
+@debug 10px % 2px;
+
+@debug -----------String------------;
+@debug "Times " + "New Roman";
+
+@debug -----------Boolean------------;
+@debug not true;
+@debug true and false;
+@debug true or false;
+

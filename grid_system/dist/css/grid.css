@@ -1,0 +1,19 @@
+/* Error: "Property  is not valid value!"
+ *   ,
+ * 5 |     $number: convert-string-to-number($viewport);
+ *   |              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ *   '
+ *   src\scss\mixins\_set-column-width.scss 5:14  set-column-width()
+ *   src\scss\mixins\_generate-columns.scss 8:17  generate-columns()
+ *   src\scss\grid.scss 7:1                       root stylesheet */
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: 'Error: "Property  is not valid value!"\a   \2577 \a 5 \2502      $number: convert-string-to-number($viewport);\d\a   \2502               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\a   \2575 \a   src\\scss\\mixins\\_set-column-width.scss 5:14  set-column-width()\a   src\\scss\\mixins\\_generate-columns.scss 8:17  generate-columns()\a   src\\scss\\grid.scss 7:1                       root stylesheet';
+}

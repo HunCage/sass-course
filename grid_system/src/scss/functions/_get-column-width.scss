@@ -1,0 +1,5 @@
+@use "sass:math";
+
+@function get-column-width($column-count) {
+    @return math.div(100% * $column-count, var(grid-size));
+}
